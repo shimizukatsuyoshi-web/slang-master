@@ -1,6 +1,6 @@
 /* Slang Clip Note service worker: keeps the app and its videos on the device so it opens offline.
    Bump VERSION whenever any file changes so phones pick up the new copy. */
-const VERSION = "v10";
+const VERSION = "v12";
 const CACHE = "slang-clip-note-" + VERSION;
 const FILES = [
   "./", "index.html", "manifest.webmanifest",
